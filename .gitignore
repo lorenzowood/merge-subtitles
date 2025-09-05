@@ -134,9 +134,8 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 
-# Test files and directories
+# Test files and directories (but keep our tests/ package)
 test/
-tests/
 archive/
 *.mp4
 *.srt
