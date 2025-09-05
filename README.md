@@ -168,3 +168,12 @@ original_name - MISSING EPISODE NUMBER.mkv
 ## Contributing
 
 Feel free to submit issues and pull requests.
+
+## Issues/TODOs
+
+* Improve detection of season and episode numbers (eg, detect season numbers from filename, not just containing directory)
+* Add a `-r` switch to allow it to work recursively
+* Add `--season <n>` and `--episode <n>` to override detection (NB `--episode` only for single file pairs)
+* Add support for more than just `.mp4` video and `.srt` subtitles
+* Allow more than one subtitle track to be merged in
+* Add integration with [media-renamer](https://github.com/lorenzowood/media-renamer) so that directories containing TV shows can be renamed correctly, with episode numbers, and also muxed all in one operation 
