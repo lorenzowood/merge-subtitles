@@ -116,13 +116,13 @@ It's important to use quotation marks to prevent the shell from expanding the wi
 
 ```bash
 # Process all episodes and add episode numbers
-merge-subtitles "episode_*" --add-episode-numbers
+merge-subtitles "*" --add-episode-numbers
 
-# Process files and archive originals
-merge-subtitles "movie" --archive-after-processing
+# Process files and archive originals into a new directory "archive"
+merge-subtitles "*" --archive-after-processing
 
 # Preview what would happen
-merge-subtitles "season_*" --dry-run --add-episode-numbers
+merge-subtitles "*" --dry-run --add-episode-numbers --archive-after-processing
 ```
 
 ## Episode Number Detection
